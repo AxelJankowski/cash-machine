@@ -12,7 +12,11 @@ int main()
 
     if( PIN == "1729" )
     {
-        cout << "Correct PIN.";
+        cout << "Correct PIN." << endl;
+    }
+    else
+    {
+        cout << "Incorrect PIN." << endl;
     }
 
     return 0;
